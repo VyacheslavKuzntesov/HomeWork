@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <conio.h>
 #include <Windows.h>
 #include <clocale>
@@ -29,7 +29,7 @@ void main()
 	do
 	{
 		setlocale(LC_ALL, "Rus");
-		cout << "1. Øàõìîòíàÿ äîñêà èç (*)" << endl << "2. Øàõìîòíàÿ äîñêà óñëîæí¸ííàÿ" << endl << "Ââåäèòå íîìåð ïðîãðàììû: "; nomer_programmu = _getch();
+		cout << "1. Ð¨Ð°Ñ…Ð¼Ð¾Ñ‚Ð½Ð°Ñ Ð´Ð¾ÑÐºÐ° Ð¸Ð· (*)" << endl << "2. Ð¨Ð°Ñ…Ð¼Ð¾Ñ‚Ð½Ð°Ñ Ð´Ð¾ÑÐºÐ° ÑƒÑÐ»Ð¾Ð¶Ð½Ñ‘Ð½Ð½Ð°Ñ" << endl << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð½Ð¾Ð¼ÐµÑ€ Ð¿Ñ€Ð¾Ð³Ñ€Ð°Ð¼Ð¼Ñ‹: "; nomer_programmu = _getch();
 		if (nomer_programmu != 27)
 		{
 			cout << nomer_programmu << endl << endl;
@@ -43,8 +43,8 @@ void main()
 		case '1':
 			setlocale(LC_ALL, "Rus");
 			kakoi_kvadrat = 0;
-			cout << "Ââåäèòå âûñîòó øàõìàòíîé äîñêè: "; cin >> colichestvo_strok;
-			cout << "Ââåäèòå øèðèíó øàõìàòíîé äîñêè: "; cin >> colichestvo_kvadratov;
+			cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð²Ñ‹ÑÐ¾Ñ‚Ñƒ ÑˆÐ°Ñ…Ð¼Ð°Ñ‚Ð½Ð¾Ð¹ Ð´Ð¾ÑÐºÐ¸: "; cin >> colichestvo_strok;
+			cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÑˆÐ¸Ñ€Ð¸Ð½Ñƒ ÑˆÐ°Ñ…Ð¼Ð°Ñ‚Ð½Ð¾Ð¹ Ð´Ð¾ÑÐºÐ¸: "; cin >> colichestvo_kvadratov;
 			setlocale(LC_ALL, ".866");
 			cout << endl;
 			for (int i = 0; i < colichestvo_strok; i++)
@@ -110,8 +110,8 @@ void main()
 			kakoi_kvadrat = 0;
 			numeracia = 1;
 			numeracia2 = 1;
-			cout << "Ââåäèòå âûñîòó øàõìàòíîé äîñêè: "; cin >> colichestvo_strok;
-			cout << "Ââåäèòå øèðèíó øàõìàòíîé äîñêè: "; cin >> colichestvo_kvadratov;
+			cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð²Ñ‹ÑÐ¾Ñ‚Ñƒ ÑˆÐ°Ñ…Ð¼Ð°Ñ‚Ð½Ð¾Ð¹ Ð´Ð¾ÑÐºÐ¸: "; cin >> colichestvo_strok;
+			cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÑˆÐ¸Ñ€Ð¸Ð½Ñƒ ÑˆÐ°Ñ…Ð¼Ð°Ñ‚Ð½Ð¾Ð¹ Ð´Ð¾ÑÐºÐ¸: "; cin >> colichestvo_kvadratov;
 			setlocale(LC_ALL, ".866");
 			cout << endl;
 			cout << (char)polosa_kasaya_sverhu;
@@ -269,11 +269,11 @@ void main()
 			setlocale(LC_ALL, "Rus");
 			if (nomer_programmu == 27)
 			{
-				cout << "Âûõîä";
+				cout << "Ð’Ñ‹Ñ…Ð¾Ð´";
 			}
 			else
 			{
-				cout << "Íåò òàêîé ïðîãðàììû" << endl;
+				cout << "ÐÐµÑ‚ Ñ‚Ð°ÐºÐ¾Ð¹ Ð¿Ñ€Ð¾Ð³Ñ€Ð°Ð¼Ð¼Ñ‹" << endl;
 			}
 			break;
 		}
